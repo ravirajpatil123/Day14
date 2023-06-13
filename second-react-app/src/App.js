@@ -1,23 +1,14 @@
 function App(){
-  let id ="id1"
-  let str =`hello ravi`;
-  let pi=3.14;
- 
-
+  let style = {background : "green",color : "white"}
   return(
-  <>
-    <h1 id="id1">hello world</h1>
-    <h1>PI={pi}</h1>
-    <h1 id={id}>{str}</h1>
-   
+     <>
+   <h1 style={style} >Hello World</h1>
 
-    <h1 id="id1">hello world</h1>
-    <h1 id={"id1"}>hello world</h1>
-    <h1 id={`id1`}>hello world</h1>
-    <h1 id={id}>hello world</h1>
+   <h1 style={{background : "red",color : "white"}} >Hello raviraj</h1>
 
-  
+   <h1 style={{backgroundColor : "pink" ,color:"white",padding : "7px"}} >Raviraj</h1>
   </>
-  )
+  );
 }
-export default App;
+
+export default App
